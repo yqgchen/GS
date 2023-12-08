@@ -1,0 +1,28 @@
+Package: GS
+Type: Package
+Title: Gradient Synchronization for Multivariate Functional Data
+URL: https://github.com/yqgchen/GS
+BugReports: https://github.com/yqgchen/GS/issues
+Version: 0.1.0
+Encoding: UTF-8
+Date: 2023-12-08
+Language: en-US
+Authors@R: 
+    c(person(given = "Yaqing",
+             family = "Chen",
+             role = c("aut", "cre"),
+             email = "yqchen@stat.rutgers.edu"))
+Maintainer: Yaqing Chen <yqchen@stat.rutgers.edu>
+Description: Provides implementation of gradient synchronization for multivariate 
+    functional data and the involved Kruskal--Wallis rank sum test and two-sample 
+    Wilcoxon rank sum test in: 
+    Chen, Y., Lin, S.-C., Zhou, Y., Carmichael, O., Müller, H.-G. and Wang, J.-L. (2023+) 
+    Gradient Synchronization for Multivariate Functional Data, With Application to Brain Connectivity. 
+    Journal of the Royal Statistical Society, Series B (Statistical Methodology). (accepted).
+License: BSD_3_clause + file LICENSE
+LazyData: false
+Imports:
+    stats
+Suggests: 
+    testthat
+RoxygenNote: 7.1.0
