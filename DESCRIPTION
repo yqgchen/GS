@@ -11,7 +11,14 @@ Authors@R:
     c(person(given = "Yaqing",
              family = "Chen",
              role = c("aut", "cre"),
-             email = "yqchen@stat.rutgers.edu"))
+             email = "yqchen@stat.rutgers.edu"),
+      person(given = "Hans-Georg",
+             family = "Müller",
+             role = c("aut")),
+      person(given = "Jane-Ling",
+             family = "Wang",
+             role = c("aut"))
+    )
 Maintainer: Yaqing Chen <yqchen@stat.rutgers.edu>
 Description: Provides implementation of gradient synchronization for multivariate 
     functional data and the involved Kruskal--Wallis rank sum test and two-sample 
