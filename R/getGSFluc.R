@@ -6,7 +6,7 @@
 #' @return A scalar holding the gradient synchronization fluctuation.
 #' @export
 #' 
-getGSF <- function (t,x,y) {
+getGSFluc <- function (t,x,y) {
   if ( is.unsorted(t) ) stop ( 't is not monotonic.' )
   dt <- diff(t)
   if ( any( dt == 0 ) ) stop ( 't includes repeated values.' )
